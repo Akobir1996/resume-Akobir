@@ -10,65 +10,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Sanoev Akobir</h2>
-    <hr color="red" width="200" align="left">
-    <img width="200px" src="20220818_125604.jpg" alt="Picturs">
-    <p>Menya zovut <strong> Akobir</strong> ya radilsya <em> 1996 godu</em> v <strong> <em> krasivim vostochnem gorode</em></strong> <strong> Buxare</strong></p>
-    <p>Ya lyublyu pisat kodi v <strong> Viual Studio Code</strong></p>
-    <h2>Moyi xobbi</h2>
-    <ol>
-        <li>Surfing</li>
-        <li>Drive</li>
-        <li>Coder</li>
-    </ol>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nazivaniya</th>
-                <th>Doljnost</th>
-                <th>Period</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>UZB GITI</td>
-                <td>Zemlamer</td>
-                <td>2019-2021</td>
-            </tr>
-            <tr>
-                <td>Tash GITI</td>
-                <td>Zemlamer</td>
-                <td>2021-do.seg</td>
-            </tr>
-            <tr>
-                <td>Bux GITI</td>
-                <td>Zemlamer</td>
-                <td>2021-do.seg</td>
-            </tr>
-        </tbody>
-    </table><br>
-    <form action="\">
-        <div>
-            <label for="name">Vashe imya:</label>
-            <input type="text" id="name" placeholder="Vvideti vashe imya">
-        </div><br>
-        <div>
-            <label for="email">Vashe email:</label>
-            <input type="email" id="email" placeholder="Vvideti vashe email">
+    <div class="container">
+        <h2>Sanoev Akobir</h2>
+        <div class="info">
+           
+            <!-- <hr color="#555" width="250px" align="left"> -->
+            <img class="avatar" src="20220818_125604.jpg" alt="Picturs">
+            <p>Menya zovut <strong> Akobir</strong> ya radilsya <em> 1996 godu</em> v <strong> <em> krasivim vostochnem gorode</em></strong> <strong> Buxare</strong></p>
+            <p>Ya lyublyu pisat kodi v <strong> Viual Studio Code</strong></p>
         </div>
-        <div>
-            <label for="message">Vashe soobsheniya:</label><br>
-            <textarea name="message" id="message" cols="15" rows="5" placeholder="Vashe oobsheniya..."></textarea>
+        <div class="infotext">    
+            <div class="xobbi">
+                <h2>Moyi xobbi</h2>
+                <ol>
+                    <li>Surfing</li>
+                    <li>Drive</li>
+                    <li>Coder</li>
+                </ol>
+            </div>
+            <div class="opit">
+                <h2>Opit robota</h2>
+                <table class="jopit">
+                    <thead>
+                        <tr>
+                            <th>Nazivaniya</th>
+                            <th>Doljnost</th>
+                            <th>Period</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>UZB GITI</td>
+                            <td>Zemlamer</td>
+                            <td>2019-2021</td>
+                        </tr>
+                        <tr>
+                            <td>Tash GITI</td>
+                            <td>Zemlamer</td>
+                            <td>2021-do.seg</td>
+                        </tr>
+                        <tr>
+                            <td>Bux GITI</td>
+                            <td>Zemlamer</td>
+                            <td>2021-do.seg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <form action="\" class="form">
+                <h2>Cвязаться со мной</h2>
+                <div class="formgr" >
+                    <label for="name">Vashe imya:</label>
+                    <input type="text" id="name" placeholder="naprimer Pasha..">
+                </div>
+                
+                <div class="formgr">
+                    <label for="email">Vashe email:</label>
+                    <input type="email" id="email" placeholder="naprimer pasha@gmail.com">
+                </div>
+                
+                <div class="formgr1">
+                    <label for="message">Vashe soobsheniya:</label>
+                    <textarea name="message" id="message" cols="15" rows="5" placeholder="Vashe sobsheniya..."></textarea>
+                </div>
+                <div class="btn">
+                    <button>Otpravit!</button>
+                </div>
+            </form>
+            <h4>Spisok sot setey</h4>
+            <a href="https://t.me/+nd_1oTWBPdQwN2Y6" target="_blank">Telegram</a>|
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>|
+            <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            <p>Tel:930708089</p>
         </div>
-        <div>
-            <button>Otpravit!</button>
-        </div>
-    </form>
-
-    <h4>Spisok sot setey</h4>
-    <a href="https://web.telegram.org" target="_blank">Telegram</a>|
-    <a href="https://www.instagram.com" target="_blank">Instagram</a>|
-    <a href="https://www.youtube.com" target="_blank">Youtube</a>
-    <p>Tel:930708089</p>
+</div>
 </body>
 </html>

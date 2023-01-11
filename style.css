@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: normal;
+background: #f1f1f1;
+color: #0f141e;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    transition: .6s;
+    color: rebeccapurple;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: #666;
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+   
+}
+.info p{
+    width: 100%;
+    margin: 10px;
+    
+}
+.container h2{
+    text-align: center;
+    border-bottom: 1px solid rgb(17, 20, 161);
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+.avatar{
+    width: 250px;
+    height: 300px;
+    border-radius: 8%;
+    box-shadow: 5px 4px rgb(124, 121, 121); 
+    margin-bottom: 20px;
+}
+.infotext h2{
+/* font-style: italic;
+font-weight: bold;
+font-size: 20px ;
+color:#85849f; */
+margin: 0;
+padding: 5px;
+}
+
+.xobbi, .opit {
+   border: 2px solid transparent; 
+   border-radius: 25px;
+   background: transparent;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.opit h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.opit table{
+    width: 500px;
+    margin: auto;
+    border: 2px solid transparent;
+}
+.jopit{
+    background-color: transparent;
+    color:#000;
+    font-size: 18px;
+    /* border: 1px dashed #555; */
+    border-radius: 7px;
+    text-align: center;
+}
+.jopit td:nth-child(2){
+    background: transparent;
+    color: #000;
+}
+.xobbi h2{
+    text-align: center;
+}
+.xobbi ol li{
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+.btn button{
+    background: #000;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100px;
+}
+.btn:hover{
+    opacity: .75;
+}
+.form h2{
+    text-align: center;
+}
+.formgr label{
+    display:inline-block;
+    font-size: 14px;
+    color: #333; 
+}
+.formgr{
+    width: 38%;
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.formgr input{
+    width: 38%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    outline: none;
+    font-family: inherit;
+    padding-left: 10px;
+}
+.formgr1{
+    margin-top: 20px;
+}
+.formgr1 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-family: inherit;
+    padding-left: 10px;
+}
+@media(max-width:650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+    .form{
+        display: block;
+    }
+    .form .formgr{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
